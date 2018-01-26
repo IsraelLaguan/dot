@@ -1,1 +1,1 @@
-export const DOT_INCREASE = 'DOT_INCREASE';
+export const DOT_ADD = 'DOT_ADD';

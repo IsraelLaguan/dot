@@ -6,7 +6,7 @@ const initialState = {
 
 const dot = (state = initialState, action) => {
   switch (action.type) {
-    case types.DOT_INCREASE:
+    case types.DOT_ADD:
       return Object.assign({}, state, {
         dots: state.dots + '.'
       })
