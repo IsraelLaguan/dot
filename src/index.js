@@ -25,7 +25,7 @@ render(App);
 
 if (module.hot) {
   module.hot.accept('./containers/app', () => {
-    render(require('./containers/app').default);
+    render(App);
   });
 }
 
